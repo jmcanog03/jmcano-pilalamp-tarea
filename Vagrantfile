@@ -25,7 +25,6 @@ Vagrant.configure("2") do |config|
         m2.vm.hostname = "JoseCanoMysql"
   	m2.vm.network "private_network", ip: "192.168.2.3"
         m2.vm.provision "shell", path: "script2.sh"
-        m2.vm.network "forwarded_port", guest: 80, host: 9050
   end
 
   # Disable automatic box update checking. If you disable this, then
