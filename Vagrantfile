@@ -14,14 +14,14 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "debian/buster64"
 
-  config.vm.define "" do |m1|
+  config.vm.define "JoseCanoApache" do |m1|
         m1.vm.hostname = "JoseCanoApache"
         m1.vm.network "private_network", ip: "192.168.2.2"
         m1.vm.provision "shell", path: "script1.sh"
-        m1.vm.network "forwarded_port", guest: 80, host: 9000
+        m1.vm.network "forwarded_port", guest: 80, host: 9050
   end
 
-  config.vm.define "maquina2" do |m2|
+  config.vm.define "JoseCanoMysql" do |m2|
         m2.vm.hostname = "JoseCanoMysql"
   	m2.vm.network "private_network", ip: "192.168.2.3"
         m2.vm.provision "shell", path: "script2.sh"
