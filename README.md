@@ -64,4 +64,8 @@ Este repositorio es para subir la tarea pila lamp en dos niveles-Modulo Implanta
 
 *Con estos pasos estara desplegado correctamente la aplicación web.*
 
+*Vídeo de funcionamiento de la aplicación web*
+
+<video src="2023-10-28%2012-34-01.mp4" controls title="Title"></video>
+
 **Práctica realizada por José Manuel Cano González**
