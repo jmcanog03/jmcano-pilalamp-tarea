@@ -13,6 +13,7 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "debian/buster64"
+  config.vm.synced_folder "./compartida", "/vagrant"
 
   config.vm.define "JoseCanoApache" do |m1|
         m1.vm.hostname = "JoseCanoApache"
