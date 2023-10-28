@@ -1,5 +1,20 @@
 # jmcano-pilalamp-tarea
-Este repositorio es para subir la tarea pila lamp en dos niveles-Modulo Implantación de Aplicaciones Web-ASIR2
+*Este repositorio es para subir la tarea pila lamp en dos niveles-Modulo Implantación de Aplicaciones Web-ASIR2*
+
+
+
+
+## Introducción
+
+*En esta tarea aprenderemos a montar una pila lamp en dos niveles para conseguirlo debemos instalar en un servidor apache2 y php y el cliente de mariadb y en otro servidor el servidor mariadb eso lo conseguimos con los scripts de provisionamiento que esta en el repositorio los dos servidores estaran dentro de la misma red para que se vean entre si una vez hecho eso configuraremos los dos servidores para desplegar correctamente la aplicacion web a continuación los pasos a seguir para desplegar correctamente una aplicacion web con la pila lamp en dos niveles*
+
+**Índice**   
+
+- [1ºpaso](#1º-paso)
+- [2ºpaso](#2º-paso)
+- [3ºpaso](#3º-paso)
+- [4ºpaso](#4º-paso)
+### 1º Paso
 
 *Una vez instalado todo con los scripts de provisionamiento lo primero sera comprobar que el servidor apache funciona para ello yo he puesto http://192.168.1.112:9050 en mi caso y saldra la siguiente página.*
 
@@ -10,7 +25,9 @@ Este repositorio es para subir la tarea pila lamp en dos niveles-Modulo Implanta
 
 ![2 imagen](img/captura2.png)
 
-*El tercer paso es poner el navegador la ruta http://192.168.1.112:9050/info.php y se nos mostrara la siguiente información.*
+*lo tercero es poner el navegador la ruta http://192.168.1.112:9050/info.php y se nos mostrara la siguiente información.*
+
+### 2º paso
 
 ![3 imagen](img/captura3.png)
 
@@ -36,6 +53,7 @@ Este repositorio es para subir la tarea pila lamp en dos niveles-Modulo Implanta
 
 ![9 imagen](img/captura9.png)
 
+### 3º Paso
 *Ahora en el servidor mysql mediante la carpeta compartida importaremos el script de la base de datos que estaba em la carpeta db dentro de la carpeta src con el siguiente comando.*
 
 ![10 imagen](img/captura16.png)
@@ -54,6 +72,9 @@ Este repositorio es para subir la tarea pila lamp en dos niveles-Modulo Implanta
 
 ![8 imagen](img/captura8.png)
 
+
+### 4º Paso
+
 *Ahora insertaremos valores dentro de la tabla users que esta en la base de datos lamp_db de la siguietne manera.*
 
 ![15 imagen](img/captura24.png)
@@ -64,7 +85,7 @@ Este repositorio es para subir la tarea pila lamp en dos niveles-Modulo Implanta
 
 *Con estos pasos estara desplegado correctamente la aplicación web.*
 
-*Vídeo de funcionamiento de la aplicación web*
+*Vídeo de funcionamiento de la aplicación web estára dentro del readme y estára situado debajo de la carpeta img para pinchar en el darle a view raw y descargarlo*
 
 <video src="2023-10-28%2012-34-01.mp4" controls title="Title"></video>
 
